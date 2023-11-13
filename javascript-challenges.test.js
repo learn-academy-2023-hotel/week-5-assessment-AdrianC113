@@ -77,3 +77,5 @@ function fullHouse(hand) {
     hand.forEach(x => counts[x] = (counts[x] || 0) + 1);
     return Object.values(counts).includes(2) && Object.values(counts).includes(3);
 }
+
+//Process: Code above was found on chatgpt, but i was not able to understand exactly what was taking place yet. I will continue to research and study this.
